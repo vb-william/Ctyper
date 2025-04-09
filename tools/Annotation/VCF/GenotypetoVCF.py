@@ -108,7 +108,7 @@ def variant_totext(chr, pos, data):
 
 class vcfdata:
     def __init__(self):
-        self.colnames = "#CHROM POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  SAMPLE"
+        self.colnames = "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\tSAMPLE"
 
         self.allchrom_variants = cl.defaultdict(lambda: cl.defaultdict(list))
 
